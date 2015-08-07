@@ -1,0 +1,4 @@
+VENV
+*.pyc
+__pycache__
+staticfiles
