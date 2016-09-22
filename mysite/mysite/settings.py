@@ -55,12 +55,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django',
-	'USER': 'django',
-	'HOST': '106.186.124.208',
+	'USER': 'root',
+	'HOST': '0.0.0.0',
 	'PORT': '3306',
-	'PASSWORD': 'django2015',
+	'PASSWORD': 'root',
     }
 }
 'SET storage_engine=INNODB,character_set_connection=utf8,collation_connection=utf8_unicode_ci'
